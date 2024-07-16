@@ -28,7 +28,6 @@ function validateCollection(
   ) {
     if (indexC1 < collection_1.length) {
       if (collection_1[indexC1] < maxC1 || collection_1[indexC1] < 0) {
-        console.log("c1 in");
         return false;
       }
       maxC1 = collection_1[indexC1];
@@ -43,7 +42,6 @@ function validateCollection(
     }
     if (indexC3 < collection_3.length) {
       if (collection_3[indexC3] < maxC3 || collection_3[indexC3] < 0) {
-        console.log("c3 in");
         return false;
       }
       maxC3 = collection_3[indexC3];
